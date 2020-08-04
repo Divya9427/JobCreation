@@ -28,8 +28,7 @@
     <hudson.model.ParametersDefinitionProperty>
         <parameterDefinitions>                           
             parameters {
-        choice(choices: ['MySQLTomcat', 'PetClinic'], description: 'Select the app to build', name: 'Application Name')
-						}
+        choice(choices: ['Tomcat', 'PetClinic'], description: 'Select the application to build', name: 'appname')						}
         </parameterDefinitions>
     </hudson.model.ParametersDefinitionProperty>
 </properties>
