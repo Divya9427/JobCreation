@@ -1,0 +1,19 @@
+---
+- name: Install python-jenkins
+  become: yes
+  become_method: sudo
+  become_user: root
+  pip: name=python-jenkins
+  
+- name: Install python-jenkins
+  become: yes
+  become_method: sudo
+  become_user: root
+  pip: name=lxml
+  
+- name: jenkins job creation
+  hosts: localhost
+  #remote_user: root
+  become: yes
+  roles:
+    - Jenkins_Job_Creation
