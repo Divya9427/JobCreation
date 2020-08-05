@@ -1,14 +1,14 @@
 ---
 - name: Install python-jenkins
   become: yes
-  #become_method: sudo
-  #become_user: root
+  become_method: sudo
+  become_user: root
   pip: name=python-jenkins
   
 - name: Install python-jenkins
   become: yes
-  #become_method: sudo
-  #become_user: root
+  become_method: sudo
+  become_user: root
   pip: name=lxml
   
 - jenkins_job:
