@@ -17,7 +17,7 @@
       <configVersion>2</configVersion>
       <userRemoteConfigs>
         <hudson.plugins.git.UserRemoteConfig>
-         <url>gitlink123</url> 
+         <url>http://gitlink123</url> 
      <!--     <url>https://github.com/Tonyamoljose/InformationCenter.git</url>  
           <credentialsId>GitHub</credentialsId> -->
          <!--   <url>git_url</url> -->
