@@ -17,28 +17,16 @@
       <configVersion>2</configVersion>
       <userRemoteConfigs>
         <hudson.plugins.git.UserRemoteConfig>
-         <url>https://github.com/Divya9427/App42PaaS-Java-MySQL-Sample.git</url> 
+         <url>gitlink123</url> 
      <!--     <url>https://github.com/Tonyamoljose/InformationCenter.git</url>  
           <credentialsId>GitHub</credentialsId> -->
          <!--   <url>git_url</url> -->
          <!--   <credentialsId>git_credential</credentialsId> -->
         </hudson.plugins.git.UserRemoteConfig>
       </userRemoteConfigs>
-	  <properties>
-    <hudson.model.ParametersDefinitionProperty>
-        <parameterDefinitions>                           
-          parameters {
-        choice(choices: ['Tomcat', 'PetClinic'], description: 'Select the application to build', name: 'appname')
-		}
-	parameters {
-        choice(choices: ['Java', 'NodeJS'], description: 'Select the application to build', name: 'apptype')
-		}
-        </parameterDefinitions>
-    </hudson.model.ParametersDefinitionProperty>
-</properties>
       <branches>
         <hudson.plugins.git.BranchSpec>
-          <name>*/master</name>
+          <name>*/mybranch</name>
         </hudson.plugins.git.BranchSpec>
       </branches>
       <doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
