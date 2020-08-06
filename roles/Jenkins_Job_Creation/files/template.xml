@@ -24,6 +24,11 @@
          <!--   <credentialsId>git_credential</credentialsId> -->
         </hudson.plugins.git.UserRemoteConfig>
       </userRemoteConfigs>
+
+<hudson.model.StringParameterDefinition>
+<name>Java</name>  
+</hudson.model.StringParameterDefinition>
+
       <branches>
         <hudson.plugins.git.BranchSpec>
           <name>*/master</name>
