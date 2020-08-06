@@ -1,7 +1,7 @@
 pipeline {
 agent any
 stages {
-stage ('Check') {
+stage ('Create Pipeline') {
 steps {
  sh "sed -i 's/Tomcat/${appname}/g' ${WORKSPACE}/roles/Jenkins_Job_Creation/tasks/main.yml"
  sh "sed -i 's,http://gitlink123,${giturl},g' ${WORKSPACE}/roles/Jenkins_Job_Creation/files/template.xml"
